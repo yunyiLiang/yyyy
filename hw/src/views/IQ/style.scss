@@ -1,0 +1,13 @@
+.iq{
+    .info{
+        >div{
+            display: inline-block;
+            &:not(:last-child)::after{
+                content: "•";
+                margin: 0 8px;
+            }
+            
+        }
+    }
+   
+}
